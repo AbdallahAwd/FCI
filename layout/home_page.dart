@@ -11,9 +11,7 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Builder(builder: (context) {
-      // hey
-      // hey2
-      // hey3
+
       HomeCubit.get(context).getStackData();
       HomeCubit.get(context).getSheets();
 
